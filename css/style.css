@@ -51,6 +51,9 @@ max-width:100%;
 .hdStrsmall a:hover{
 	color:#6CB2D3;
 }
+.hdStrsmall2{
+	color:#F4F2D8;
+}
 .page-header{
 	display:flex;
 	justify-content:space-between;
