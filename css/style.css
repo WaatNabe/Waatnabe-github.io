@@ -116,20 +116,7 @@ span{
 }
 
 
-/* ボタン */
-
-/* 背景画像 */
-/*.big-bg{
-	background-size: cover;
-	background-position: center top;
-	background-repeat: no-repeat;
-}
-#home{
-	background-image: url(../image/ima_04.jpg);
-	min-height: 100vh;
-}
-
-/* --- 全体のBOX定義 ---------------------------------------- */
+/*全体のBOX定義*/
 .box {
   position   : relative;
 
@@ -139,7 +126,7 @@ span{
   overflow   : hidden;
 }
 
-/* --- 背景の指定 ------------------------------------------- */
+/*背景の指定*/
 .box .bgImg {
   position   : absolute;
   top        : 0;
@@ -150,7 +137,7 @@ span{
   animation  : bgAnime 20s infinite;   /* 4画像 × 各5s = 20s */
 }
 
-/* --- 段差で背景画像のアニメーションを実行 ----------------- */
+/*段差で背景画像のアニメーションを実行*/
 .box .src1 {
   background-image : url(../image/ima_01.jpg);   /* 背景の画像を指定 */
 }
@@ -174,9 +161,6 @@ span{
   30% { opacity: 0; }
  100% { opacity: 0; }
 }
-
-
-*/
 
 /* グリッドコンテンツ */
 .item{
