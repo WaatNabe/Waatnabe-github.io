@@ -16,9 +16,7 @@ text-decoration:none;
 img{
 max-width:100%;
 }
-span{
-	color:#F4F2D8;
-}
+
 /* ヘッダー部分 */
 .headerStyle{
 	font-family: 'Noto Serif JP', serif;
@@ -93,6 +91,7 @@ span{
 }
 
 /* 部分色変えのCSS */
+
 .str{
 	font-weight:bold;
 	color:#ff0000;
@@ -106,6 +105,9 @@ span{
 	font-family:'ＭＳ Ｐゴシック';
 	font-weight:bold;
 	font-size:150%;
+}
+.pasonal{
+	color:#F4F2D8;
 }
 
  /* インデントの指定 */
