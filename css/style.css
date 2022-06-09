@@ -133,8 +133,8 @@ span{
 .box {
   position   : relative;
 
-  max-width  : inherit;
-  height     : inherit;
+  max-width  : 1100px;
+  height     : 500px;
   margin     : 0 auto;
   overflow   : hidden;
 }
