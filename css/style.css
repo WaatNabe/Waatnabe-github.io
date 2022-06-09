@@ -16,6 +16,9 @@ text-decoration:none;
 img{
 max-width:100%;
 }
+span{
+	color:#F4F2D8;
+}
 /* ヘッダー部分 */
 .headerStyle{
 	font-family: 'Noto Serif JP', serif;
@@ -61,9 +64,7 @@ max-width:100%;
 	margin:0 auto;
 	padding:0 4%;
 }
-span{
-	color:#F4F2D8;
-}
+
 
 /* ホーム */
 .home-contact{
