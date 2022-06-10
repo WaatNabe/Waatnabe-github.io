@@ -121,8 +121,8 @@ max-width:100%;
 /*全体のBOX定義*/
 .box {
   position   : relative;
-  width:100%; /*max-1100px;*/
-  min-height:100vh; /*500px;*/
+  max-width:1100px; 
+  height:500px;
   margin     : auto;
   overflow   : hidden;
   
