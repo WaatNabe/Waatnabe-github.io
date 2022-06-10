@@ -5,7 +5,7 @@
   box-sizing    : border-box;           /* 罫線も含む長さ*/
   width         : 100%;                 /* BOXの幅*/
   max-width     : 700px;                /* BOXの最大幅*/
-  height        : 450px;                /* BOXの高さ*/
+  height        : 1000px;                /* BOXの高さ*/
   padding       : 26px;                 /* 文字の位置*/
   font-size     : 30px;                 /* 文字サイズ*/
   text-align    : center;               /* 文字位置*/
