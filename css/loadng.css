@@ -7,8 +7,8 @@
 	height:100%;
 	z-index:999;
 	background:#000;
-	/*text-align:center;
-	color:#fff;*/
+	text-align:center;
+	color:#fff;
 }
 /*画像*/
 #opning_logo{
@@ -18,7 +18,7 @@
 	transform:translate(-50%,-50%);
 }
 #opning_logo img{
-	width:260px;
+	width:150px;
 }
 
 /*フェード*/
