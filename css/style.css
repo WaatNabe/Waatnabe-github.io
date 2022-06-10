@@ -119,9 +119,12 @@ img{
 
 /*背景その2*/
 .full {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
+  position   : absolute;
+  top        : 0;
+  left       : 0;
+  bottom     : 0;
+  right      : 0;
+  opacity    : 0;
   background: url(../image/ima_01.jpg)
     center / cover;
 }
