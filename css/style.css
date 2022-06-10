@@ -5,16 +5,16 @@ html{
 font-size:100%;
 }
 body{
-font-family:"Yu Gothic Medium", "游ゴシック Medium", YouGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif; 
-line-height:1.7;
-color:#000;
-padding-top: 100px;
+	font-family:"Yu Gothic Medium", "游ゴシック Medium", YouGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif; 
+	line-height:1.7;
+	color:#000;
+	padding-top: 100px;
 }
 a{
-text-decoration:none;
+	text-decoration:none;
 }
 img{
-max-width:100%;
+	max-width:100%;
 }
 
 /* ヘッダー部分 */
