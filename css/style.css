@@ -76,9 +76,6 @@ img{
 	margin:10px 0 42px;
 }
 
-.icon{
-	margin-left: auto;
-}
 
 /* 見出し */
 .page-title{
@@ -99,9 +96,8 @@ img{
 	color:#ff0000;
 }
 .str2{
-	font-family:'ＭＳ Ｐ明朝';
-	font-weight:bold;
-	font-size:200%;
+	font-family:'MS Mincho';
+	font-size:160;
 	text-align:center;
 }
 .str3{
