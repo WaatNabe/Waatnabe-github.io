@@ -11,13 +11,21 @@
   height        : 720px;                /* BOXの高さ*/
   padding       : 26px;                 /* 文字の位置*/
   font-size     : 30px;                 /* 文字サイズ*/
-  display        : table-cell; 
-  text-align    : center;               /* 文字位置*/
-  vertical-align : middle;
   color         : #000000;              /* 文字色*/
 
   background    : rgba(255, 255, 255, 0.57);              /*背景色*/
   border        : 4px double #00666;   /*枠線の指定*/
   border-radius : 1px;                  /*角丸の指定*/
   box-shadow    : 0 0 0 11px rgba(255, 255, 255, 0.57);   /* 影を利用した外余白*/
+}
+
+.box div {
+  position       : absolute;             /* 親要素から絶対位置  */
+  display        : inline-block;         /* インラインブロック化*/
+  text-align     : left;                 /* 文字開始位置合わせ  */
+  white-space    : nowrap;               /* 文字の折り返しを禁止*/
+  top            : 50%;                  /* ブロック位置（縦）  */
+  left           : 50%;                  /* ブロック位置（横）  */
+  transform      : translateY(-50%)
+                   translateX(-50%);     /* 文字の高さ分ずらす  */
 }
