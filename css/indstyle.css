@@ -11,7 +11,9 @@
   height        : 720px;                /* BOXの高さ*/
   padding       : 26px;                 /* 文字の位置*/
   font-size     : 30px;                 /* 文字サイズ*/
+  display        : table-cell; 
   text-align    : center;               /* 文字位置*/
+  vertical-align : middle;
   color         : #000000;              /* 文字色*/
 
   background    : rgba(255, 255, 255, 0.57);              /*背景色*/
