@@ -127,6 +127,7 @@ img{
 	background-size:cover;
 	/*background-color:#464646;*/
 	overflow: hidden;
+	opacity: 0.3;
 }
 /*ぼかし*/
 .bgImageind:before{
