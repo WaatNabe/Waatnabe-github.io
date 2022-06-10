@@ -118,8 +118,8 @@ img{
   background      : #F8E9D1;
   text-align	  : left;
 }
-/*画像*/
-.bgImage{
+/*背景画像1*/
+.bgImageind{
 	background-image:url(../image/ima_01.jpg);
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -129,7 +129,7 @@ img{
 	overflow: hidden;
 }
 /*ぼかし*/
-.bgImage:before{
+.bgImageind:before{
   content: '';
   background: inherit;
   -webkit-filter: blur(5px);
@@ -145,53 +145,60 @@ img{
   z-index: -1;
 }
 
-/*スライドショー*/
-/*全体のBOX定義*/
-.box {
-  position   : relative;
-  max-width:1100px; 
-  height:500px;
-  margin     : auto;
-  overflow   : hidden;
-  
+/*背景画像2*/
+.bgImageabo{
+	background-image:url(../image/ima_02.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	/*background-color:#464646;*/
+	overflow: hidden;
+}
+/*ぼかし*/
+.bgImageabo:before{
+  content: '';
+  background: inherit;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
 }
 
-/*背景の指定*/
-.box .bgImg {
-  position   : absolute;
-  top        : 0;
-  left       : 0;
-  bottom     : 0;
-  right      : 0;
-  opacity    : 0;
-  animation  : bgAnime 20s infinite;   /* 4画像 × 各5s = 20s */
+/*背景画像3*/
+.bgImagewor{
+	background-image:url(../image/ima_03.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	/*background-color:#464646;*/
+	overflow: hidden;
+}
+/*ぼかし*/
+.bgImagewor:before{
+  content: '';
+  background: inherit;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
 }
 
-/*段差で背景画像のアニメーションを実行*/
-.box .src1 {
-  background-image : url(../image/ima_01.jpg);   /* 背景の画像を指定 */
-　animation-delay  : 0s;
-}
-.box .src2 {
-  background-image : url(../image/ima_02.jpg);   /* 背景の画像を指定 */
-  animation-delay  : 5s;
-}
-.box .src3 {
-  background-image : url(../image/ima_03.jpg);   /* 背景の画像を指定 */
-  animation-delay  : 10s;
-}
-.box .src4 {
-  background-image : url(../image/ima_04.jpg);   /* 背景の画像を指定 */
-  animation-delay  : 15s;
-}
-
-@keyframes bgAnime {
-   0% { opacity: 0; }
-   5% { opacity: 1; }
-  25% { opacity: 1; }
-  30% { opacity: 0; }
- 100% { opacity: 0; }
-}
 
 /* グリッドコンテンツ */
 .item{
