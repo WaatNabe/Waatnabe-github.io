@@ -141,6 +141,7 @@ max-width:100%;
 /*段差で背景画像のアニメーションを実行*/
 .box .src1 {
   background-image : url(../image/ima_01.jpg);   /* 背景の画像を指定 */
+　animation-delay  : 0s;
 }
 .box .src2 {
   background-image : url(../image/ima_02.jpg);   /* 背景の画像を指定 */
