@@ -17,3 +17,39 @@
   border-radius : 1px;                  /*角丸の指定*/
   box-shadow    : 0 0 0 11px rgba(255, 255, 255, 0.57);   /* 影を利用した外余白*/
 }
+
+/*ボタン*/
+.marubotun{
+  position: relative;
+  width:100px;
+  height:100px;
+    box-sizing: border-box;
+    padding: 0 10px;
+  text-align: center;
+  background:#333;
+  border-radius:50%;
+  color: #fff;
+    text-decoration: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marubotun:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+    width: 85%;
+  height: 85%;
+  border: 2px solid #333;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(1.1);
+    transition: .3s ease; 
+  }
+
+.marubotun:hover:after {
+  transform: translate(-50%, -50%) scale(1);
+    border-color:#fff;
+}
