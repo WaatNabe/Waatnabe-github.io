@@ -117,6 +117,15 @@ img{
   text-align	  : left;
 }
 
+/*背景その2*/
+.full {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url(../image/ima_01.jpg)
+    center / cover;
+}
+
 /*スライドショー*/
 /*全体のBOX定義*/
 .box {
