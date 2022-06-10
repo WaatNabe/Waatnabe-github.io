@@ -122,7 +122,7 @@ max-width:100%;
 .box {
   position   : relative;
   max-width:1100px;
-  heght:500px;
+  height:500px;
   margin     : auto;
   overflow   : hidden;
 }
