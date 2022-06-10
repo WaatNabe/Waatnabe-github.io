@@ -120,13 +120,13 @@ max-width:100%;
 /*スライドショー*/
 /*全体のBOX定義*/
 .box {
-  /*position   : relative;*/
+  position   : relative;
   width:100%; /*max-1100px;*/
   min-height:100vh; /*500px;*/
   margin     : auto;
   overflow   : hidden;
   background-size:cover;
-  background-position:center;
+  
 }
 
 /*背景の指定*/
