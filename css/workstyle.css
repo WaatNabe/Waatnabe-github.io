@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 
+
+table{
+margin:auto;
+}
+
 .workbox {
   margin        : auto;                 /* サンプル用 中央寄せ*/
   box-sizing    : border-box;           /* 罫線も含む長さ*/
