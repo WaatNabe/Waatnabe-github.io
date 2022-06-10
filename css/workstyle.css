@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+.botuntun{
+display:inline-block;
+text-align:center;
+}
+
 .workbox {
   margin        : auto;                 /* サンプル用 中央寄せ*/
   box-sizing    : border-box;           /* 罫線も含む長さ*/
